@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { Typography , Card, CardContent, Grid, TextField , Button,Box, List,Radio,RadioGroup ,Container, ListItem, ListItemAvatar, Avatar, ListItemText } from '@mui/material';
+import { Typography , Card, CardContent,Container, Grid, TextField , Radio , RadioGroup , Button,Box, List, ListItem, ListItemAvatar, Avatar, ListItemText } from '@mui/material';
+
 
 const Form = () => {
   return (
-    <div>
+    <div>     
       <Typography variant="h1" component="h4">
         form making
       </Typography>
@@ -92,8 +93,7 @@ const Form = () => {
           </ListItem>
         </List>
       </Box>
-      <Card
-        variant="outlined"
+      <Card variant = "outlined"
         style={{
           maxWidth: 450,
           margin: '0 auto',
@@ -104,9 +104,8 @@ const Form = () => {
         <CardContent>
           <Grid container spacing={1}>
             <Grid xs={12} sm={6} item>
-              <Typography variant="h6" component="h6">
-                user 4
-              </Typography>
+        
+               <Typography variant="h6" component="h6">user 4</Typography>
             </Grid>
             <Grid xs={12} item>
               <Typography variant="h6" component="h6">
@@ -131,6 +130,8 @@ const Form = () => {
           </Grid>
         </CardContent>
       </Card>
+      
+      
       <Container>
         <Typography variant="h1" component="h2">
           form making
@@ -166,8 +167,11 @@ const Form = () => {
           Submit
         </Button>
       </Container>
+      
+      
     </div>
   );
 };
 
 export default Form;
+
